@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&display=swap");
+
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  background-color: #000000;
+}
+.header {
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin: 0 0 0 8px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  border-radius: 30px;
+  border: 2px solid white;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.nav ul {
+  display: flex;
+  padding: 0 1.25rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  border: 1px dashed white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.nav ul li a:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+.banner {
+  width: 70%;
+  display: flex;
+  margin: 20px auto;
+}
+.ban-le {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ban-le img {
+  border-radius: 20px 50px 10px 50px;
+  width: 90%;
+  height: auto;
+}
+.ban-re {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.ban-re h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #cfc547;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+  text-shadow: 20px 20px 11px rgba(168, 158, 32, 0.8);
+}
+.ban-re .btn a {
+  text-decoration: none;
+  color: white;
+  background-color: #b63000;
+  font-size: 35px;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.ban-re .btn a:hover {
+  background-color: white;
+  color: #b63000;
+  border-radius: 10px 30px 10px 30px;
+}
+.divider {
+  width: 70%;
+  margin: 50px auto;
+  background-color: rgb(0, 0, 0);
+  height: 20px;
+  border: 3px dotted white;
+  border-radius: 20px;
+}
+.docs {
+  width: 70%;
+  color: white;
+  margin: 30px auto;
+}
+.bas-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bas-info h2 {
+  font-size: 30px;
+  padding: 15px;
+}
+.bas-info img {
+  width: 80%;
+  height: auto;
+  padding: 15px 0;
+  border-radius: 20px !important;
+}
+.bas-info p {
+  font-size: 20px;
+  padding: 15px 0;
+  text-align: justify;
+  width: 80%;
+}
+.bas-info ol {
+  float: left !important;
+}
+.doc-info {
+  padding: 0 150px;
+}
+.doc-info ol li {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+.doc-info h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.doc-info ul li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.case-1 {
+  font-size: 25px;
+  margin-top: 10px;
+  padding: 5px 0;
+  color: rgb(244, 9, 56);
+}
+
+.cases ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  border: 2px dotted white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  border-radius: 30px;
+}
+div.footer-logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-menu ul {
+  display: flex;
+  list-style: none;
+}
+.footer-menu ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  border: 2px solid white;
+  padding: 4px 10px;
+  border-radius: 30px;
+}
