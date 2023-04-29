@@ -30,7 +30,7 @@ $query->execute();
 <html lang="en">
   <head>
     <!-- custom css -->
-    <link rel="stylesheet" href="./css/Dashboard.css">
+    <!-- <link rel="stylesheet" href="./css/Dashboard.css"> -->
 
     <title>Online Marriage Registration System|| User Profile !!</title>
 

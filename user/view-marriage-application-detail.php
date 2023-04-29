@@ -12,7 +12,7 @@ if (strlen($_SESSION['omrsuid']==0)) {
 <html lang="en">
   <head>
      <!-- custom css -->
-     <link rel="stylesheet" href="./css/Dashboard.css">
+     <!-- <link rel="stylesheet" href="./css/Dashboard.css"> -->
 
     <title>View Certificate</title>
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Marriage Registration :: Home Page</title>
 
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
@@ -96,7 +96,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
             </div>
         </section>
     </main>
-    <footer style="padding: 0;">
+    <footer>
         <div class="footer-logo">
             &copy;2023 All rights are reserved || Upendra & team
         </div>

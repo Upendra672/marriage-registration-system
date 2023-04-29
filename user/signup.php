@@ -27,6 +27,8 @@ if (isset($_POST['submit'])) {
     if ($lastInsertId) {
 
       echo "<script>alert('You have signup  Succesfully');</script>";
+echo "<script type='text/javascript'> document.location ='login.php'; </script>";
+
     } else {
 
       echo "<script>alert('Something went wrong.Please try again');</script>";
@@ -58,7 +60,7 @@ if (isset($_POST['submit'])) {
         <div class="shape"></div>
     </div>
     <form action="" method="post" style="height:770px;">
-        <h3>Login Here</h3>
+        <h3>SignUp Here</h3>
 
         <label for="fname">First Name:</label>
         <input type="text" placeholder="First Name" id="fname" required="true" name="fname" value="">

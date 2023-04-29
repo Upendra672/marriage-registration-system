@@ -126,9 +126,10 @@ echo "<script>alert('Aadhar Number is  already exist. Please try again');</scrip
 <html lang="en">
   <head>
    
- <!-- custom css -->
- <link rel="stylesheet" href="./css/Dashboard.css">
+<!-- custom css -->
+<!-- <link rel="stylesheet" href="./css/Dashboard.css"> -->
  
+
     <title>Online Marriage Registration System !! Form</title>
 
     <!-- vendor css -->
@@ -178,7 +179,7 @@ include_once('includes/sidebar.php');
 
 
           <!-- wd-200 -->
-              <h3  class="card-body-title" style="padding-top: 20px;color: red">1 Husband Details</h3>
+              <h3  class="card-body-title" style="padding-top: 20px;color: red"> Husband Details</h3>
               <hr />
               <div class="row">
                 <label class="col-sm-4 form-control-label">Name of Husband: <span class="tx-danger">*</span></label>
@@ -189,7 +190,7 @@ include_once('includes/sidebar.php');
              <div class="row mg-t-20">
                 <label class="col-sm-4 form-control-label">Photo: <span class="tx-danger">*</span></label>
                 <div class="col-sm-8 mg-t-10 mg-sm-t-0">
-                  <input type="file" name="husimage" value="" class="form-control" required='true'>
+                  <input type="file" name="husimage" value="" class="form-control" required='flase'>
                 </div>
               </div><!-- row -->
               <div class="row mg-t-20">
@@ -235,12 +236,12 @@ include_once('includes/sidebar.php');
                 </div>
               </div>
                <div class="row mg-t-20">
-                <label class="col-sm-4 form-control-label">Enter Adahar Number: <span class="tx-danger">*</span></label>
+                <label class="col-sm-4 form-control-label">Enter Aadhar Number: <span class="tx-danger">*</span></label>
                 <div class="col-sm-8 mg-t-10 mg-sm-t-0">
                  <input type="text" name="hadharno" value="" required="true" class="form-control" maxlength="12">
                 </div>
               </div>
-               <h3  class="card-body-title" style="padding-top: 20px;color: red">2 Wife Details</h3>
+               <h3  class="card-body-title" style="padding-top: 20px;color: red"> Wife Details</h3>
               <hr />
                <div class="row">
                 <label class="col-sm-4 form-control-label">Name of Wife: <span class="tx-danger">*</span></label>
@@ -251,7 +252,7 @@ include_once('includes/sidebar.php');
               <div class="row mg-t-20">
                 <label class="col-sm-4 form-control-label">Photo: <span class="tx-danger">*</span></label>
                 <div class="col-sm-8 mg-t-10 mg-sm-t-0">
-                  <input type="file" name="wifeimage" value="" class="form-control" required='true'>
+                  <input type="file" name="wifeimage" value="" class="form-control" required='false'>
                 </div>
               </div><!-- row -->
               <div class="row mg-t-20">
@@ -297,15 +298,15 @@ include_once('includes/sidebar.php');
                 </div>
               </div>
                <div class="row mg-t-20">
-                <label class="col-sm-4 form-control-label">Enter Adahar Number: <span class="tx-danger">*</span></label>
+                <label class="col-sm-4 form-control-label">Enter Aadhar Number: <span class="tx-danger">*</span></label>
                 <div class="col-sm-8 mg-t-10 mg-sm-t-0">
                  <input type="text" name="wadharno" value="" required="true" class="form-control" maxlength="12">
                 </div>
               </div>
-              <h3  class="card-body-title" style="padding-top: 20px;color: red">3 Witness Details</h3>
+              <h3  class="card-body-title" style="padding-top: 20px;color: red"> Witness Details</h3>
               <hr />
                <div class="row">
-                <label class="col-sm-4 form-control-label">Full Name of Witness: <span class="tx-danger">*</span></label>
+                <label class="col-sm-4 form-control-label">Full Name of Witness 1: <span class="tx-danger">*</span></label>
                 <div class="col-sm-8 mg-t-10 mg-sm-t-0">
                   <input type="text" name="witnessnamef" value="" class="form-control" required='true'>
                 </div>
@@ -318,7 +319,7 @@ include_once('includes/sidebar.php');
               </div>
               <hr />
               <div class="row">
-                <label class="col-sm-4 form-control-label">Full Name of Witness: <span class="tx-danger">*</span></label>
+                <label class="col-sm-4 form-control-label">Full Name of Witness 2: <span class="tx-danger">*</span></label>
                 <div class="col-sm-8 mg-t-10 mg-sm-t-0">
                   <input type="text" name="witnessnames" value="" class="form-control" required='true'>
                 </div>
@@ -331,7 +332,7 @@ include_once('includes/sidebar.php');
               </div>
               <hr />
               <div class="row">
-                <label class="col-sm-4 form-control-label">Full Name of Witness: <span class="tx-danger">*</span></label>
+                <label class="col-sm-4 form-control-label">Full Name of Witness 3: <span class="tx-danger">*</span></label>
                 <div class="col-sm-8 mg-t-10 mg-sm-t-0">
                   <input type="text" name="witnessnamet" value="" class="form-control" required='true'>
                 </div>

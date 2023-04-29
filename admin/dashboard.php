@@ -12,7 +12,7 @@ if (strlen($_SESSION['omrsaid']==0)) {
 <html lang="en">
   <head>
 
-    <title>Amanda Responsive Bootstrap 4 Admin Template</title>
+    <title>    Admin Dashboard </title>
 
     <!-- vendor css -->
     <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&display=swap"); */
 
 * {
   margin: 0;
@@ -6,11 +6,10 @@
   box-sizing: border-box;
   font-family: "Edu NSW ACT Foundation", cursive !important;
   background-color: #000000 !important;
-
 }
 
 .am-header {
-margin-top: 5px;
+  margin-top: 5px;
   box-sizing: border-box !important;
   background-color: #000000 !important;
   border: 2px solid white !important;
@@ -30,101 +29,103 @@ margin-top: 5px;
   padding: 11px 32px !important;
   border-radius: 10px;
 }
-.dropdown-profile{
+.dropdown-profile {
   margin: 0 35px !important;
 }
-div.dropdown-menu{
-    border: 1px solid white !important;
+div.dropdown-menu {
+  border: 1px solid white !important;
 }
 
 .am-header-right .user-profile-nav a {
-    border-bottom: 1px solid white !important;
+  border-bottom: 1px solid white !important;
 }
 .am-header-right .user-profile-nav a:last-child() {
-    border-bottom: none;
+  border-bottom: none;
 }
 .am-sideleft {
-    top: 75px !important;
-    border: 1px solid rgb(255, 255, 255);
-    border-top: none !important;
-    border-radius: 20px;
+  top: 75px !important;
+  border: 1px solid rgb(255, 255, 255);
+  border-top: none !important;
+  border-radius: 20px;
+}
+.nav-link > .icon {
+  font-size: 23px !important;
+}
+.nav-link > span {
+  font-size: 19px !important;
 }
 .am-pagetitle {
-    top: 75px !important;
+  top: 75px !important;
 }
 .am-sideleft-tab .nav-link::after {
   background-color: #000000 !important;
 }
 .am-navicon {
-    color: #ff7800 !important;
+  color: #ff7800 !important;
 }
-.am-pagebody{
-    /* border: 1px solid white !important; */
-    margin: 21px 5px !important;
-    top: 22px !important;
-    position: relative !important;
+.am-pagebody {
+  /* border: 1px solid white !important; */
+  margin: 21px 5px !important;
+  top: 22px !important;
+  position: relative !important;
 }
 
 .overlay-body {
-    position: relative !important;
-    top: -212px !important;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
+  position: relative !important;
+  top: -212px !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
 }
 .am-title {
-    font-size: 30px !important;
-    color: white !important;
-    
+  font-size: 30px !important;
+  color: white !important;
 }
-#searchBar{
-    border: 1px solid #ff7800 !important;
+#searchBar {
+  border: 1px solid #ff7800 !important;
 }
 
-input[type="search"]{
-    background-color: white !important ;
+input[type="search"] {
+  background-color: white !important ;
 }
-.am-footer{
-    font-size: 16px !important;
-    color: rgb(255, 255, 255) !important;
+.am-footer {
+  font-size: 16px !important;
+  color: rgb(255, 255, 255) !important;
 }
-.welcome-na{
-    color: white !important;
-    font-size: 30px !important;
+.welcome-na {
+  color: white !important;
+  font-size: 30px !important;
 }
 
 .am-header-right .user-profile-nav a {
-    color: rgb(255 255 255) !important;
-
+  color: rgb(255 255 255) !important;
 }
 
 .am-sideleft-menu > .nav-item > .nav-link {
-    margin: 9px 0px !important;
-    color: #ffffff !important;
-    font-size: 16px !important;
-
+  margin: 9px 0px !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
 }
 .form-control {
-    border-radius: 0;
-    border: 1px solid white !important;
-    color: white !important
+  border-radius: 0;
+  border: 1px solid white !important;
+  color: white !important;
 }
-.form-control:hover{
-    border: 1px solid rgb(113, 194, 221) !important;
-
+.form-control:hover {
+  border: 1px solid rgb(113, 194, 221) !important;
 }
-label.form-control-label{
-    font-size: 20px !important;
-    color: white !important;
-    font-weight: bold !important;
+label.form-control-label {
+  font-size: 20px !important;
+  color: white !important;
+  font-weight: bold !important;
 }
-input.form-control{
-    color: white !important;
+input.form-control {
+  color: white !important;
 }
-.card-body-title{
-    font-size: 25px !important;
-    color:rgb(255, 0, 0) !important;
+.card-body-title {
+  font-size: 25px !important;
+  color: rgb(255, 0, 0) !important;
 }

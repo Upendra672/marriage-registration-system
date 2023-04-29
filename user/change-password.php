@@ -45,7 +45,7 @@ echo '<script>alert("Your current password is wrong")</script>';
 
     <title>Change Password !!</title>
     <!-- custom css -->
-    <link rel="stylesheet" href="./css/Dashboard.css">
+    <!-- <link rel="stylesheet" href="./css/Dashboard.css"> -->
 
     <!-- vendor css -->
     <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">

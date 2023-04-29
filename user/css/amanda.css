@@ -103,7 +103,7 @@ body {
   font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #868ba1;
+  color: #000000d1;
   background-color: #D8DCE3;
 }
 
@@ -1984,7 +1984,7 @@ fieldset[disabled] a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: orangered;
   border-color: #17a2b8;
 }
 .btn-info:hover {
@@ -8513,7 +8513,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #32415A;
+  color: orangered !important;
 }
 
 .card-footer {
@@ -9132,7 +9132,7 @@ p {
 /* ############### Forms ############### */
 /* ------------------------------------- */
 .form-control, .dataTables_filter input {
-  border-radius: 0;
+  border-radius: 20px 0 0 20px;
   background-color: #f8f9fa;
 }
 .form-control:focus, .dataTables_filter input:focus, .form-control:active, .dataTables_filter input:active {
@@ -9893,7 +9893,6 @@ textarea.parsley-error:active {
 .table th,
 .table td {
   border-top-color: #fff;
-  color: #737c85;
 }
 .table th.valign-middle,
 .table td.valign-middle {
@@ -11875,9 +11874,11 @@ textarea.parsley-success:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #232e40;
+  background-color: #6f42c1;
   padding: 0 15px 0 0;
   z-index: 1000;
+  border: 1px dotted white;
+  border-bottom: none;
 }
 @media (min-width: 480px) {
   .am-header {
@@ -11957,7 +11958,7 @@ textarea.parsley-success:focus {
   padding-right: 0;
   margin-left: 20px;
   position: relative;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   transition: all 0.2s ease-in-out;
 }
 .am-header-right .nav-link img {
@@ -11972,16 +11973,16 @@ textarea.parsley-success:focus {
 }
 .am-header-right .logged-name {
   display: inline-block;
-  font-size: 13px;
+  font-size: 18px;
   margin-left: 5px;
 }
 .am-header-right .dropdown-menu {
   position: relative;
-  border: 0;
+  border: 1px dotted white;
   padding: 10px;
   border-radius: 0;
   box-shadow: none;
-  background-color: #202939;
+  background-color: #6f42c1;
   left: auto !important;
   right: 0 !important;
   top: 52px !important;
@@ -11997,12 +11998,12 @@ textarea.parsley-success:focus {
   align-items: center;
   padding: 0 10px;
   height: 40px;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   transition: all 0.2s ease-in-out;
 }
 .am-header-right .user-profile-nav a:hover, .am-header-right .user-profile-nav a:focus {
-  background-color: #1c2533;
-  color: #FB9337;
+  background-color: white;
+  color: #6f42c1;
 }
 .am-header-right .user-profile-nav .icon {
   display: inline-block;
@@ -12026,7 +12027,7 @@ textarea.parsley-success:focus {
   justify-content: center;
   font-size: 24px;
   line-height: 0;
-  color: #FB9337;
+  color: orangered;
 }
 .am-navicon i {
   line-height: 0;
@@ -12053,7 +12054,7 @@ textarea.parsley-success:focus {
   left: -240px;
   bottom: 0;
   width: 240px;
-  background-color: #fff;
+  background-color:#6f42c1;
   transition: all 0.2s ease-in-out;
 }
 @media (min-width: 992px) {
@@ -12064,13 +12065,14 @@ textarea.parsley-success:focus {
 }
 .am-sideleft .tab-pane {
   position: absolute;
-  top: 60px;
+  top: 50px;
   bottom: 0;
   left: 0;
   right: 0;
   overflow-y: auto;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px dotted white;
 }
 .am-sideleft .tab-pane .ps__scrollbar-y-rail {
   visibility: hidden;
@@ -12168,6 +12170,7 @@ textarea.parsley-success:focus {
   justify-content: center;
   width: 100%;
   height: 100%;
+  border: 1px dotted white;
   background-color: #32415A;
   color: rgba(255, 255, 255, 0.7);
   position: relative;
@@ -12178,7 +12181,7 @@ textarea.parsley-success:focus {
   left: -1px;
   right: -1px;
   height: 1px;
-  background-color: #000000;
+  /* background-color: #000000; */
   top: 0;
   transition: all 0.2s ease-in-out;
   display: none;
@@ -12188,8 +12191,9 @@ textarea.parsley-success:focus {
   color: #fff;
 }
 .am-sideleft-tab .nav-link.active {
-  background-color: #2d3a50;
-  color: #FB9337;
+  background-color: #6f42c1;
+  color: orangered;
+  font-weight: bold;
 }
 .am-sideleft-tab .nav-link.active::after {
   display: block;
@@ -12212,7 +12216,9 @@ textarea.parsley-success:focus {
   width: 100%;
   height: 40px;
   padding: 0;
-  color: #868e96;
+  margin: 8px 0px;
+  color: white;
+  font-weight: bold;
   position: relative;
 }
 .am-sideleft-menu > .nav-item > .nav-link.with-sub::after {
@@ -12228,7 +12234,7 @@ textarea.parsley-success:focus {
 }
 .am-sideleft-menu > .nav-item > .nav-link i:first-child {
   margin-right: 8px;
-  font-size: 23px;
+  font-size: 26px;
   width: 20px;
   text-align: center;
 }
@@ -12239,7 +12245,8 @@ textarea.parsley-success:focus {
   font-size: 20px;
 }
 .am-sideleft-menu > .nav-item > .nav-link:hover, .am-sideleft-menu > .nav-item > .nav-link:focus {
-  color: #495057;
+  color: orangered;
+
 }
 .am-sideleft-menu > .nav-item > .nav-link.active {
   color: #343a40;
@@ -12291,9 +12298,11 @@ textarea.parsley-success:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 54px;
   background-color: #2d3a50;
   transition: all 0.2s ease-in-out;
+  background-color: #6f42c1;
+  border: 1px dotted white;
 }
 @media (min-width: 992px) {
   .am-pagetitle {
@@ -12313,6 +12322,8 @@ textarea.parsley-success:focus {
 @media (min-width: 576px) {
   .am-pagetitle .search-bar .form-control-wrapper {
     width: 200px;
+    position: absolute;
+    right: 37px;
   }
 }
 @media (max-width: 767px) {
@@ -12326,6 +12337,8 @@ textarea.parsley-success:focus {
   padding-right: 15px;
   color: #964803;
   box-shadow: none !important;
+  background-color: orangered;
+  /* clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 15% 49%, 0% 0%); */
 }
 .am-pagetitle .search-bar.show-search .form-control-wrapper {
   width: 250px;
@@ -12337,7 +12350,7 @@ textarea.parsley-success:focus {
 }
 .am-pagetitle .am-title {
   color: rgba(255, 255, 255, 0.8);
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   margin-bottom: 2px;
   position: relative;

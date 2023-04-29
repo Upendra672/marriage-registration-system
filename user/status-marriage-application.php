@@ -13,7 +13,7 @@ if (strlen($_SESSION['omrsuid']==0)) {
   <head>
    
  <!-- custom css -->
- <link rel="stylesheet" href="./css/Dashboard.css">
+ <!-- <link rel="stylesheet" href="./css/Dashboard.css"> -->
     <title>Online Marriage Registration System || Verified Marriage Application</title>
 
     <!-- vendor css -->

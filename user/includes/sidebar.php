@@ -1,6 +1,6 @@
-   <div class="am-sideleft">
+<div class="am-sideleft">
       <ul class="nav am-sideleft-tab">
-        <li style="width:300px; padding: 0 5px;">
+        <li style="width:300px">
           <a href="#mainMenu" class="nav-link active"><i class="icon ion-ios-home-outline tx-24"></i></a>
         </li>
     

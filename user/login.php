@@ -42,7 +42,11 @@ echo "<script>alert('Invalid Details');</script>";
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
+   
     <form action="" method="post">
+    <div class="btn">
+      <a href="../index.php"> <i>&#8672;</i></a>
+    </div>
         <h3>Login Here</h3>
 
         <label for="mobile">Mobile Number:</label>
