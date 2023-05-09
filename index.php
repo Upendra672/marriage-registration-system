@@ -68,7 +68,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                 </ul>
             </div>
                 <h2 style="color:rgb(238, 255, 0)">What are the documents required for registering marriage?</h2>
-                <p style="font-size: 20px;">All the documents must be attested by the Gazetted Officer or by Notary public:</p>
+                <p class="p"style="font-size: 20px;">All the documents must be attested by the Gazetted Officer or by Notary public:</p>
                 <div class="cases">
                     <p class="case-1">In case of an Indian couple marriage:</p>
                     <ul>

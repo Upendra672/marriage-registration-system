@@ -5,7 +5,7 @@
   /* padding: 0; */
   box-sizing: border-box;
   font-family: "Edu NSW ACT Foundation", cursive;
-  background-color: hsla(0,0%,13%,0.9);
+  background-color: hsla(0, 0%, 13%, 0.9);
 }
 .header {
   align-items: center;
@@ -46,7 +46,7 @@
   padding: 10px;
   margin: 0 5px;
   font-weight: bold;
-  transition: .3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .nav ul li a:hover {
@@ -82,6 +82,7 @@
 
 .ban-re h1 {
   font-size: 35px;
+  /* font-size: 1.4rem; */
   text-align: center;
   color: #cfc547;
   text-transform: uppercase;
@@ -97,7 +98,7 @@
   padding: 5px 10px;
   border-radius: 30px;
   border: 1px solid gold;
-  transition: .5s;
+  transition: 0.5s;
 }
 .ban-re .btn a:hover {
   background-color: white;
@@ -105,12 +106,12 @@
   border-radius: 10px 30px 10px 30px;
 }
 /* .divider { */
-  /* width: 70%; */
-  /* margin: 50px auto; */
-  /* background-color: rgb(0, 0, 0); */
-  /* height: 10px; */
-  /* border: 3px dotted white; */
-  /* border-radius: 20px; */
+/* width: 70%; */
+/* margin: 50px auto; */
+/* background-color: rgb(0, 0, 0); */
+/* height: 10px; */
+/* border: 3px dotted white; */
+/* border-radius: 20px; */
 /* } */
 .docs {
   width: 70%;
@@ -181,11 +182,7 @@ footer {
   border-radius: 20px;
   padding: 11px;
 }
-div.footer-logo{
-display: flex;
-justify-content: center;
-align-items: center;
-}
+
 .footer-menu ul {
   display: flex;
   list-style: none;
@@ -197,4 +194,67 @@ align-items: center;
   border: 2px solid white;
   padding: 4px 10px;
   border-radius: 30px;
+}
+
+@media (min-width: 360px) and (max-width: 844px) {
+  .logo {
+    font-size: 15px;
+  }
+  .nav ul {
+    display: none;
+  }
+  .ban-re h1 {
+    font-size: 13px;
+  }
+
+  .ban-re .btn a {
+    font-size: 17px;
+  }
+  .banner {
+    width: 100%;
+  }
+  .bas-info h2 {
+    font-size: 18px;
+    padding: none;
+  }
+  .docs {
+    width: 100%;
+  }
+  .bas-info p {
+    font-size: 16px;
+  }
+  .doc-info {
+    padding: 0 0;
+  }
+  .doc-info ol li {
+    font-size: 14px;
+  }
+  .doc-info h2 {
+    font-size: 18px;
+    padding: 0px 15px;
+  }
+  .doc-info ul li {
+    font-size: 13px;
+  }
+  .p {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .case-1 {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .footer-menu ul{
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 26px;
+  }
+ 
 }
