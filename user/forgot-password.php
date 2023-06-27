@@ -36,7 +36,8 @@ if (isset($_POST['submit'])) {
   <title>User || Forgot Password Page</title>
 
     <!-- custom stylesheet -->
-  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="./css/loginn.css">
+
   
   <!-- script -->
   <script type="text/javascript">

@@ -27,8 +27,7 @@ if (isset($_POST['submit'])) {
     if ($lastInsertId) {
 
       echo "<script>alert('You have signup  Succesfully');</script>";
-echo "<script type='text/javascript'> document.location ='login.php'; </script>";
-
+      echo "<script type='text/javascript'> document.location ='login.php'; </script>";
     } else {
 
       echo "<script>alert('Something went wrong.Please try again');</script>";
@@ -48,44 +47,52 @@ echo "<script type='text/javascript'> document.location ='login.php'; </script>"
 
 
   <title>Online Marriage Registration System || Sign Up page</title>
-<link rel="stylesheet" href="./css/login.css">
-    
+  <link rel="stylesheet" href="./css/loginn.css">
+
 
 
 </head>
 
 <body class="login-body">
-<div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <form action="" method="post" style="height:770px;" name="form">
+    <h3>SignUp Here</h3>
+
+    <label for="fname">First Name:</label>
+    <input type="text" placeholder="First Name" id="fname" required="true" name="fname" value="">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" placeholder="Last Name" id="lname" required="true" name="lname" value="">
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="text" placeholder="Mobile Number" id="mobile" required="true" name="mobno" maxlength="10" pattern="[0-9]+">
+
+    <label for="address">Address:</label>
+    <input type="text" placeholder="Address" required="true" name="address" id="address" value="">
+
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="password" name="password" required="true" value="">
+
+    <button type="submit" name="submit" onclick="phonenumber(document.form.mobno)">Sign up</button>
+    <!-- <button class="btn btn-primary"> <a href="../index.php">Back Home</a></button> -->
+    <div class="form-group mg-b-20" style="padding-top: 20px"><a href="login.php">Do you have an account ? || signin</a> </div>
+
+    <div class="social">
+      <div class="go"><i class="fab fa-google"></i> Google</div>
+      <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
     </div>
-    <form action="" method="post" style="height:770px;">
-        <h3>SignUp Here</h3>
-
-        <label for="fname">First Name:</label>
-        <input type="text" placeholder="First Name" id="fname" required="true" name="fname" value="">
-        
-        <label for="lname">Last Name:</label>
-        <input type="text" placeholder="Last Name" id="lname" required="true" name="lname" value="">
-
-        <label for="mobile">Mobile Number:</label>
-        <input type="text" placeholder="Mobile Number" id="mobile" required="true" name="mobno" maxlength="10" pattern="[0-9]+" >
-
-        <label for="address">Address:</label>
-        <input type="text" placeholder="Address" required="true" name="address" id="address" value="">
-
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password" name="password" required="true" value="">
-
-        <button type="submit" name="submit">Sign up</button>
-        <!-- <button class="btn btn-primary"> <a href="../index.php">Back Home</a></button> -->
-        <div class="form-group mg-b-20" style="padding-top: 20px"><a href="login.php">Do you have an account ? || signin</a> </div>
-        
-        <div class="social">
-          <div class="go"><i class="fab fa-google"></i>  Google</div>
-          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
-        </div>
-    </form>
+  </form>
+  <script>
+    function phonenumber(inputtxt) {
+      var phoneno = /^\d{10}$/;
+      if (inputtxt.value.match(phoneno)) {
+        return false;
+      }
+    }
+  </script>
 </body>
 
 </html>

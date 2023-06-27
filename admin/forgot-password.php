@@ -33,7 +33,8 @@ if (isset($_POST['submit'])) {
 <head>
 
   <!-- custom stylesheet -->
-  <link rel="stylesheet" href="./css/Login.css">
+  <link rel="stylesheet" href="./css/Loginn.css">
+  
 
   <title>Admin || Forgot Password Page</title>
 

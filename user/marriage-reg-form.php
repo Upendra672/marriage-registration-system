@@ -97,6 +97,7 @@ if (strlen($_SESSION['omrsuid'] == 0)) {
         if ($LastInsertId > 0) {
 
           echo '<script>alert("Registration form has been filled successfully.")</script>';
+          header('location:appointment.php');
         } else {
           echo '<script>alert("Something Went Wrong. Please try again")</script>';
         }
@@ -156,7 +157,7 @@ if (strlen($_SESSION['omrsuid'] == 0)) {
 
 
 
-                <div class="row">
+                <div class="row pd-y-20">
                   <label class="col-sm-4 form-control-label">Date of Marriage: <span class="tx-danger">*</span></label>
                   <div class="col-sm-8 mg-t-10 mg-sm-t-0">
                     <input type="text" class="form-control fc-datepicker" placeholder="yyyy-mm-dd" data-date-format="yyyy-mm-dd" name="dom">
@@ -331,6 +332,7 @@ if (strlen($_SESSION['omrsuid'] == 0)) {
                 </div>
                 <div class="form-layout-footer mg-t-30">
                   <p style="text-align: center;"><button class="btn btn-info mg-r-5" name="submit" id="submit">ADD</button></p>
+                </div>
               </form>
             </div><!-- form-layout-footer -->
           </div><!-- card -->

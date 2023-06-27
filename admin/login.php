@@ -43,7 +43,7 @@ if (isset($_POST['login'])) {
 
 <head>
 
-  <link rel="stylesheet" href="./css/Login.css">
+  <link rel="stylesheet" href="./css/Loginn.css">
   
   <title>Online Marriage Registration System|| Admin Sign In Page</title>
   
